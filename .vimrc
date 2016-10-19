@@ -19,6 +19,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 autocmd VimEnter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 " unobtrusive whitespace highlighting
 " http://blog.kamil.dworakowski.name/2009/09/unobtrusive-highlighting-of-trailing.html
